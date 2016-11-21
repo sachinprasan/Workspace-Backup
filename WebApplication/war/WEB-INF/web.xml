@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>LoginApp</servlet-name>
+		<servlet-class>com.full.appl.LoginApp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginApp</servlet-name>
+		<url-pattern>/loginApp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignUpApp</servlet-name>
+		<servlet-class>com.full.appl.SignUpApp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignUpApp</servlet-name>
+		<url-pattern>/signUpApp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LogoutApp</servlet-name>
+		<servlet-class>com.full.appl.LogoutApp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutApp</servlet-name>
+		<url-pattern>/logoutApp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ForgotPassword</servlet-name>
+		<servlet-class>com.full.appl.ForgotPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ForgotPassword</servlet-name>
+		<url-pattern>/forgotPassword</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

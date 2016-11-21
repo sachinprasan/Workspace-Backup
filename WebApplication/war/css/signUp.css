@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+input{
+	height: 30px;
+	width: 350px;
+	margin-left: 530px;
+	border-radius:8px;
+	font-size:15px;
+}
+
+#fname{
+	margin-top: 40px;
+}
+
+#signUp{
+	
+	height: 40px;
+	width: 150px;
+	margin-left: 630px;
+	background:#FF7A5A;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FCF4D9;
+	border-radius: 15px;
+}
+
+#existingUser a{
+	
+	text-decoration:none;
+}
+
+#existingUser{
+	 font-family: "Verdana";
+	 margin-left: 530px;
+}

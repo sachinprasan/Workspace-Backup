@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url('/images/todoBg4.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.topBar{
+	padding: 15px;
+	background:#F1C40F;
+}
+#iconImg{
+margin-left: 70px;
+margin-top:10px;
+width:55px;
+height:55px;
+float:left
+} 
+
+.mainContent h1{
+	font-weight: 100;
+	line-height: 1.2em;
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+}
+.marginTop{
+	position:absolute;
+	margin-top: 190px;
+	margin-left: 600px;
+}
+
+.slogan{
+	font-size: 110%;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 1px;
+}
+.topNavRight{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.subNavRight a{
+	 display: block;
+     width: 60px;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     color: black;
+}
+.subNavRight{
+	float: right;
+	margin-top:10px;
+	
+}
+#login{
+	margin-right:80px;
+	
+}
+.subNavRight a:hover{
+	background-color:#D2D7D3;
+}
